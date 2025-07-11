@@ -1,0 +1,20 @@
+body {
+    background-image: url("../media/backgrounds/dark.jpg") !important;
+}
+
+.Taskbar {
+    background: linear-gradient(to right,
+    rgba(28, 32, 36, 0.8),
+    rgba(23, 33, 48, 0.8),
+    rgba(20, 30, 55, 0.8),
+    rgba(18, 26, 52, 0.8),
+    rgba(28, 36, 40, 0.8)
+  );
+  
+  backdrop-filter: blur(30px);
+  
+}
+
+.Taskbar-App:hover {
+  background-color: #092044 !important;
+}
